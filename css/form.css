@@ -1,0 +1,80 @@
+body {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  font-family: sans-serif;
+  color: #474747;
+}
+
+header {
+  grid-area: header;
+}
+
+h1 {
+  grid-area: main;
+  text-align: center;
+  color: #05c167;
+}
+
+form {
+  grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px auto;
+}
+form legend {
+  font-weight: bold;
+}
+form .form-group {
+  margin-top: 15px;
+  border-radius: 15px;
+}
+form .form-group .input-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.input-cont {
+  margin: 15px;
+}
+.input-cont label {
+  padding-right: 20px;
+}
+.input-cont input {
+  height: 25px;
+}
+
+button {
+  margin: 30px auto 0 auto;
+  height: 50px;
+  width: 190px;
+  background-color: #05c167;
+  border: none;
+  border-radius: 25px;
+  color: #474747;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+button:hover {
+  opacity: 0.8;
+  color: black;
+}
+
+footer {
+  grid-area: footer;
+}/*# sourceMappingURL=form.css.map */

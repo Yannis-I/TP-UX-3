@@ -1,0 +1,76 @@
+@import "./colors";
+
+body{
+    display: grid;
+    grid-template-areas:    'header header header'
+                            'main main main'
+                            'footer footer footer';
+    font-family: sans-serif;
+    color: $color-grey;
+}
+
+header{
+    grid-area: header;
+}
+
+h1{
+    grid-area: main;
+    text-align: center;
+    color: $color-primary;
+}
+
+form{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+
+    legend{
+        font-weight: bold;
+    }
+
+    .form-group{
+        margin-top: 15px;
+        border-radius: 15px;
+
+        .input-cont{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.input-cont{
+    margin: 15px;
+    
+    label{
+        padding-right: 20px;
+    }
+
+    input{
+        height: 25px;
+    }
+}
+
+button{
+    margin: 30px auto 0 auto;
+    height: 50px;
+    width: 190px;
+    background-color: $color-primary;
+    border: none;
+    border-radius: 25px;
+    color: $color-grey;
+    font-weight: bold;
+    font-size: 1.5em;
+
+    &:hover{
+        opacity: 0.8;
+        color: black;
+    }
+}
+
+footer{
+    grid-area: footer;
+}

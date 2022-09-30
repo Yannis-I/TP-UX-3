@@ -1,1 +1,91 @@
-hello
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire de contact</title>
+        <link rel="stylesheet" href="css/form.css" type="text/css">
+        <link rel="stylesheet" href="css/styleresa.css" type="text/css">
+    </head>
+    <body>
+        <header id="header">
+            <div id="burger"><i class="fas fa-bars"></i></div>
+            <i class="fas fa-taxi"></i>
+            <nav>
+                <ul>
+                    <li>
+                        Accueil
+                    </li>
+                    <li>
+                        <a href="./resa.html">Commander</a>
+                    </li>
+                    <li>
+                        S'inscrire
+                    </li>
+                    <li>
+                        Aide
+                    </li>
+                </ul>
+            </nav>
+            <i class="fas fa-user"></i>
+        </header>
+
+        <h1>INSCRIPTION</h1>
+        <form class="contact">
+            <fieldset class="form-group form-group__id">
+                <legend>Identité</legend>
+                <div class="input-cont">
+                    <label>Prénom</label>
+                    <input type="text" name="firstname">
+                </div>
+                <div class="input-cont">
+                    <label>Nom</label>
+                    <input type="text" name="lastname">
+                </div>
+            </fieldset>
+
+            <fieldset class="form-group form-group__contact">
+                <legend>Contact</legend>
+                <div class="input-cont">
+                    <label>Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="input-cont">
+                    <label>Téléphone</label>
+                    <input type="tel" name="phone">
+                </div>
+            </fieldset>
+
+            <fieldset class="form-group form-group__adresse">
+                <legend>Adresse</legend>
+                <div class="input-cont">
+                    <label>N° et nom de rue</label>
+                    <input type="text" name="adresse">
+                </div>
+                <div class="input-cont">
+                    <label>Code postal</label>
+                    <input type="text" name="code">
+                </div>
+                <div class="input-cont">
+                    <label>Ville</label>
+                    <input type="text" name="city">
+                </div>
+            </fieldset>
+
+            <button type="submit" onsubmit="return false">INSCRIPTION</button>
+        </form>
+
+        
+        <footer id="footer">
+            <div class="txtfooter">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nisi, in nesciunt fugiat accusantium adipisci ipsa cumque similique labore. Quia explicabo quis quidem officia quasi! Accusantium ipsam voluptatibus magnam quaerat.</p>
+            </div>
+            <div class="txtfooter">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nisi, in nesciunt fugiat accusantium adipisci ipsa cumque similique labore. Quia explicabo quis quidem officia quasi! Accusantium ipsam voluptatibus magnam quaerat.</p>
+            </div>
+            <div class="txtfooter">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nisi, in nesciunt fugiat accusantium adipisci ipsa cumque similique labore. Quia explicabo quis quidem officia quasi! Accusantium ipsam voluptatibus magnam quaerat.</p>
+            </div>
+        </footer>
+    </body>
+</html>
