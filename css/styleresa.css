@@ -104,7 +104,7 @@ nav ul li:hover {
 }
 
 .btn-valid {
-  background: #05c167;
+  background: #017434;
   border-radius: 50px;
   width: 100px;
   color: #fff;
@@ -116,7 +116,7 @@ nav ul li:hover {
 
 .btn-valid:hover {
   cursor: pointer;
-  background: rgb(71, 71, 71);
+  background: #1d9653;
 }
 
 .txtfooter {

@@ -12,7 +12,7 @@ header {
 h1 {
   grid-area: main;
   text-align: center;
-  color: #05c167;
+  color: #017434;
 }
 
 form {
@@ -63,7 +63,7 @@ button {
   margin: 30px auto 0 auto;
   height: 50px;
   width: 190px;
-  background-color: #05c167;
+  background-color: #017434;
   border: none;
   border-radius: 25px;
   color: #474747;
