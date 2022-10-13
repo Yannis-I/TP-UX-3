@@ -1,0 +1,49 @@
+@import "./colors";
+@import "./mediaQueries";
+
+main {
+  margin-bottom: 20px;
+}
+
+.trajet-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+
+  .map {
+    flex-basis: 70%;
+    padding: 10px;
+  }
+
+  #detail-vehicule {
+    flex-basis: 30%;
+
+    table {
+      max-width: 230px;
+      width: 100%;
+      font-weight: bold;
+      margin-bottom: 20px;
+
+      .val {
+        color: $color-primary;
+      }
+    }
+
+    img {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+}
+
+aside {
+  margin-left: 10px;
+  background-color: lightgray;
+
+  #pub {
+    color: black !important;
+  }
+}

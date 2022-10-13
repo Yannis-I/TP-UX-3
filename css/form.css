@@ -77,4 +77,16 @@ button:hover {
 
 footer {
   grid-area: footer;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    min-width: 350px;
+  }
+  .input-cont {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
 }/*# sourceMappingURL=form.css.map */
